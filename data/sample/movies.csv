@@ -1,0 +1,43 @@
+movieId,title,genres
+1,Toy Story (1995),Adventure|Animation|Children|Comedy|Fantasy
+2,Shrek (2001),Adventure|Animation|Children|Comedy|Fantasy|Romance
+3,Finding Nemo (2003),Adventure|Animation|Children|Comedy
+4,Up (2009),Adventure|Animation|Children|Drama
+5,Inside Out (2015),Adventure|Animation|Children|Comedy|Drama|Fantasy
+6,Coco (2017),Adventure|Animation|Children
+7,The Lion King (1994),Adventure|Animation|Children|Drama|Musical
+8,Spirited Away (2001),Adventure|Animation|Fantasy
+9,The Matrix (1999),Action|Sci-Fi|Thriller
+10,Inception (2010),Action|Crime|Drama|Mystery|Sci-Fi|Thriller
+11,Interstellar (2014),Sci-Fi|IMAX
+12,Blade Runner (1982),Action|Sci-Fi|Thriller
+13,Alien (1979),Horror|Sci-Fi
+14,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi
+15,The Terminator (1984),Action|Sci-Fi|Thriller
+16,Arrival (2016),Sci-Fi
+17,The Dark Knight (2008),Action|Crime|Drama|IMAX
+18,Mad Max: Fury Road (2015),Action|Adventure|Sci-Fi|Thriller
+19,Die Hard (1988),Action|Crime|Thriller
+20,Gladiator (2000),Action|Adventure|Drama
+21,The Godfather (1972),Crime|Drama
+22,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller
+23,Goodfellas (1990),Crime|Drama
+24,Se7en (1995),Mystery|Thriller
+25,Parasite (2019),Comedy|Drama|Thriller
+26,The Shining (1980),Horror
+27,Get Out (2017),Horror
+28,Hereditary (2018),Drama|Horror|Mystery|Thriller
+29,The Exorcist (1973),Horror|Mystery
+30,A Quiet Place (2018),Drama|Horror|Thriller
+31,Pride & Prejudice (2005),Drama|Romance
+32,The Notebook (2004),Drama|Romance
+33,La La Land (2016),Comedy|Drama|Romance
+34,Notting Hill (1999),Comedy|Romance
+35,Titanic (1997),Drama|Romance
+36,Before Sunrise (1995),Drama|Romance
+37,Superbad (2007),Comedy
+38,The Hangover (2009),Comedy|Crime
+39,Mean Girls (2004),Comedy
+40,The Grand Budapest Hotel (2014),Comedy|Drama
+41,Forrest Gump (1994),Comedy|Drama|Romance|War
+42,The Shawshank Redemption (1994),Crime|Drama
