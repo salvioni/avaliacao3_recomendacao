@@ -1,0 +1,32 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: recsys
+      POSTGRES_PASSWORD: recsys
+      POSTGRES_DB: recsys
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U recsys -d recsys"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg://recsys:recsys@db:5432/recsys
+      SEED_ON_STARTUP: "true"
+      # troque para /app/data/movielens depois de rodar scripts/download_movielens.py
+      SEED_DIR: ${SEED_DIR:-/app/data/sample}
+    volumes:
+      - ./data:/app/data:ro
+    ports:
+      - "8000:8000"
+
+volumes:
+  pgdata:
