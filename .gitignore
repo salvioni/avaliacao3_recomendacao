@@ -1,1 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.db
+.env
 .DS_Store
+data/movielens/
